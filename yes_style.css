@@ -4,8 +4,8 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f9e3e3;
-    font-family: 'Arial', sans-serif;
+    background-color: #fce4ec;
+    font-family: 'Poppins', sans-serif;
 }
 
 .container {
@@ -13,12 +13,19 @@ body {
 }
 
 .header_text {
+    font-family: 'Pacifico', cursive;
     font-size: 3em;
-    color: #d32f2f;
+    color: #e91e63;
 }
 
 .gif_container img {
     width: 100%; 
     max-width: 500px; 
     height: auto; 
+}
+
+@media (max-width: 600px) {
+    .header_text {
+        font-size: 1.8rem;
+    }
 }
